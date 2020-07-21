@@ -1,4 +1,5 @@
 window.onload = function (){viewCart()};
+window.onfocus = function (){viewCart()};
 function viewCart(){
   // View cart list
   var getCartList= [];
